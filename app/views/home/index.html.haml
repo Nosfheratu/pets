@@ -2,4 +2,6 @@
 %p Find me in app/views/home/index.html.haml
 
 = link_to "get button link", home_link_path, class: "btn", remote: true, data: { disable_with: '<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>' }
+= link_to "get image link", home_image_path, class: "btn", remote: true, data: { disable_with: '<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>' }
 = link_to "Pets report", "#", id: "pets_report", class: "btn btn-success"
+%img#pet_image

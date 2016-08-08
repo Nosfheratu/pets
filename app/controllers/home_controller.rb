@@ -5,4 +5,7 @@ class HomeController < ApplicationController
 
   def link
   end
+
+  def image
+  end
 end
