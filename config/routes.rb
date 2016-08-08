@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :pets
   get 'home/link' => 'home#link'
+  get 'home/image' => 'home#image'
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
